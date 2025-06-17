@@ -6,7 +6,7 @@ Picked up JAVA_TOOL_OPTIONS: -Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8
 
 📊 CARREGAMENTO DE DADOS
 ┌───────────────────────────────────┐
-│ Total de produtos:           500 │
+│ Total de produtos:           600 │
 │ Status:               ✅ Sucesso │
 └───────────────────────────────────┘
 
@@ -15,52 +15,46 @@ Picked up JAVA_TOOL_OPTIONS: -Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8
 
 📝 1. INSERÇÃO DOS DADOS
 ┌──────────────────────────────────────────────────┐
-│ ⏱️  Tempo de inserção:               2,59 ms │
-│ 📦 Produtos inseridos:                500    │
+│ ⏱️  Tempo de inserção:               3,16 ms │
+│ 📦 Produtos inseridos:                600    │
 └──────────────────────────────────────────────────┘
 
 🔍 2. TESTE DE BUSCA E REMOÇÃO
-🎲 Chaves sorteadas: [1198, 1052, 1719, 1256, 1068, 1408, 1571, 1186, 1019, 2000]
+🎲 Chaves sorteadas: [1547, 1582, 1572, 1084, 1607, 1633, 1485, 1905, 1672, 1789]
 
-✅ Produto encontrado - ID: 1198
-   📋 Nome: Headset | 🏷️  Categoria: Armazenamento
-   🗑️  Produto ID 1198 removido com sucesso
+❓ Produto com ID 1547 não foi encontrado
 
-✅ Produto encontrado - ID: 1052
-   📋 Nome: Roteador | 🏷️  Categoria: Entretenimento
-   🗑️  Produto ID 1052 removido com sucesso
+✅ Produto encontrado - ID: 1582
+   📋 Nome: Abraçadeira | 🏷️  Categoria: Informática
+   🗑️  Produto ID 1582 removido com sucesso
 
-❓ Produto com ID 1719 não foi encontrado
+✅ Produto encontrado - ID: 1572
+   📋 Nome: Sensor Kit | 🏷️  Categoria: Informática
+   🗑️  Produto ID 1572 removido com sucesso
 
-✅ Produto encontrado - ID: 1256
-   📋 Nome: Notebook | 🏷️  Categoria: Casa Inteligente
-   🗑️  Produto ID 1256 removido com sucesso
+✅ Produto encontrado - ID: 1084
+   📋 Nome: Smart TV | 🏷️  Categoria: Armazenamento
+   🗑️  Produto ID 1084 removido com sucesso
 
-✅ Produto encontrado - ID: 1068
-   📋 Nome: Smart Speaker | 🏷️  Categoria: Componentes
-   🗑️  Produto ID 1068 removido com sucesso
+❓ Produto com ID 1607 não foi encontrado
 
-✅ Produto encontrado - ID: 1408
-   📋 Nome: Memória RAM | 🏷️  Categoria: Imagem
-   🗑️  Produto ID 1408 removido com sucesso
+❓ Produto com ID 1633 não foi encontrado
 
-❓ Produto com ID 1571 não foi encontrado
+❓ Produto com ID 1485 não foi encontrado
 
-✅ Produto encontrado - ID: 1186
-   📋 Nome: Drone | 🏷️  Categoria: Armazenamento
-   🗑️  Produto ID 1186 removido com sucesso
+❓ Produto com ID 1905 não foi encontrado
 
-❓ Produto com ID 1019 não foi encontrado
+❓ Produto com ID 1672 não foi encontrado
 
-❓ Produto com ID 2000 não foi encontrado
+❓ Produto com ID 1789 não foi encontrado
 
 📊 3. RESUMO DOS TESTES
 ┌──────────────────────────────────────────────────────────┐
-│ ⏱️  Tempo total de remoção:                     1,46 ms │
-│ ✅ Produtos encontrados e removidos:                6 │
-│ ❓ Produtos não encontrados:                       4 │
-│ ⚡ Tempo médio por operação:                 0,15 ms │
-│ 🎯 Taxa de sucesso:                          60,0% │
+│ ⏱️  Tempo total de remoção:                     1,13 ms │
+│ ✅ Produtos encontrados e removidos:                3 │
+│ ❓ Produtos não encontrados:                       7 │
+│ ⚡ Tempo médio por operação:                 0,11 ms │
+│ 🎯 Taxa de sucesso:                          30,0% │
 └──────────────────────────────────────────────────────────┘
 
 ╟────────────────────────────────────────────────────────────────────╢
@@ -70,46 +64,56 @@ Picked up JAVA_TOOL_OPTIONS: -Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8
 
 📝 1. INSERÇÃO DOS DADOS
 ┌──────────────────────────────────────────────────┐
-│ ⏱️  Tempo de inserção:               1,04 ms │
-│ 📦 Produtos inseridos:                500    │
+│ ⏱️  Tempo de inserção:               1,24 ms │
+│ 📦 Produtos inseridos:                600    │
 └──────────────────────────────────────────────────┘
 
 🔍 2. TESTE DE BUSCA E REMOÇÃO
-🎲 Chaves sorteadas: [1568, 1479, 1513, 1292, 1174, 1672, 1529, 1816, 1844, 1626]
+🎲 Chaves sorteadas: [1013, 1117, 1208, 1940, 1549, 1360, 1232, 1758, 1349, 1422]
 
-❓ Produto com ID 1568 não foi encontrado
+✅ Produto encontrado - ID: 1013
+   📋 Nome: Câmera Digital | 🏷️  Categoria: Áudio
+   🗑️  Produto ID 1013 removido com sucesso
 
-✅ Produto encontrado - ID: 1479
-   📋 Nome: Tablet Gráfico | 🏷️  Categoria: Componentes
-   🗑️  Produto ID 1479 removido com sucesso
+✅ Produto encontrado - ID: 1117
+   📋 Nome: Switch | 🏷️  Categoria: Acessórios
+   🗑️  Produto ID 1117 removido com sucesso
 
-❓ Produto com ID 1513 não foi encontrado
+✅ Produto encontrado - ID: 1208
+   📋 Nome: Smart TV | 🏷️  Categoria: Armazenamento
+   🗑️  Produto ID 1208 removido com sucesso
 
-✅ Produto encontrado - ID: 1292
-   📋 Nome: Sirene | 🏷️  Categoria: Acessórios
-   🗑️  Produto ID 1292 removido com sucesso
+❓ Produto com ID 1940 não foi encontrado
 
-✅ Produto encontrado - ID: 1174
-   📋 Nome: Volante | 🏷️  Categoria: Casa Inteligente
-   🗑️  Produto ID 1174 removido com sucesso
+✅ Produto encontrado - ID: 1549
+   📋 Nome: Patch Panel | 🏷️  Categoria: Redes
+   🗑️  Produto ID 1549 removido com sucesso
 
-❓ Produto com ID 1672 não foi encontrado
+✅ Produto encontrado - ID: 1360
+   📋 Nome: Memória RAM | 🏷️  Categoria: Componentes
+   🗑️  Produto ID 1360 removido com sucesso
 
-❓ Produto com ID 1529 não foi encontrado
+✅ Produto encontrado - ID: 1232
+   📋 Nome: Lâmpada Inteligente | 🏷️  Categoria: Acessórios
+   🗑️  Produto ID 1232 removido com sucesso
 
-❓ Produto com ID 1816 não foi encontrado
+❓ Produto com ID 1758 não foi encontrado
 
-❓ Produto com ID 1844 não foi encontrado
+✅ Produto encontrado - ID: 1349
+   📋 Nome: E-reader | 🏷️  Categoria: Casa Inteligente
+   🗑️  Produto ID 1349 removido com sucesso
 
-❓ Produto com ID 1626 não foi encontrado
+✅ Produto encontrado - ID: 1422
+   📋 Nome: Fechadura Digital | 🏷️  Categoria: Componentes
+   🗑️  Produto ID 1422 removido com sucesso
 
 📊 3. RESUMO DOS TESTES
 ┌──────────────────────────────────────────────────────────┐
-│ ⏱️  Tempo total de remoção:                     1,04 ms │
-│ ✅ Produtos encontrados e removidos:                3 │
-│ ❓ Produtos não encontrados:                       7 │
-│ ⚡ Tempo médio por operação:                 0,10 ms │
-│ 🎯 Taxa de sucesso:                          30,0% │
+│ ⏱️  Tempo total de remoção:                     1,60 ms │
+│ ✅ Produtos encontrados e removidos:                8 │
+│ ❓ Produtos não encontrados:                       2 │
+│ ⚡ Tempo médio por operação:                 0,16 ms │
+│ 🎯 Taxa de sucesso:                          80,0% │
 └──────────────────────────────────────────────────────────┘
 
 ╔════════════════════════════════════════════════════════════════════╗

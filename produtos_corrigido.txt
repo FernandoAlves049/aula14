@@ -498,3 +498,104 @@
 1498,Tripé,Acessórios
 1499,Controle,Áudio
 1500,Home Theater,Periféricos
+1501,Monitor Gaming,Periféricos
+1502,Cabo HDMI,Acessórios
+1503,Hub USB,Informática
+1504,Webcam 4K,Imagem
+1505,Microfone Gamer,Áudio
+1506,Cadeira Gamer,Acessórios
+1507,Mesa Digitalizadora,Informática
+1508,Repetidor Wi-Fi,Redes
+1509,Carregador Wireless,Acessórios
+1510,Smartwatch,Casa Inteligente
+1511,Fone Bluetooth,Áudio
+1512,Power Bank,Acessórios
+1513,Suporte Monitor,Periféricos
+1514,LED Strip,Casa Inteligente
+1515,Cooler RGB,Componentes
+1516,SSD NVMe,Armazenamento
+1517,Placa Mãe,Componentes
+1518,RAM DDR4,Componentes
+1519,GPU RTX,Componentes
+1520,Cooler CPU,Componentes
+1521,Pasta Térmica,Componentes
+1522,Cabo USB-C,Acessórios
+1523,Adaptador HDMI,Acessórios
+1524,Switch HDMI,Acessórios
+1525,Extensão USB,Acessórios
+1526,Mousepad RGB,Periféricos
+1527,Teclado Mecânico,Periféricos
+1528,Mouse Gaming,Periféricos
+1529,Headset Gamer,Áudio
+1530,Microfone USB,Áudio
+1531,Interface Audio,Áudio
+1532,Monitor 4K,Imagem
+1533,Projetor 4K,Imagem
+1534,Câmera DSLR,Imagem
+1535,Lente 50mm,Imagem
+1536,Tripé Carbono,Imagem
+1537,Flash Externo,Imagem
+1538,Cartão SD,Armazenamento
+1539,HD Externo 2TB,Armazenamento
+1540,SSD Portátil,Armazenamento
+1541,Pen Drive 128GB,Armazenamento
+1542,Leitor Cartão,Armazenamento
+1543,Case HD,Armazenamento
+1544,Roteador Mesh,Redes
+1545,Switch Gigabit,Redes
+1546,Access Point,Redes
+1547,Modem Fibra,Redes
+1548,Cabo Ethernet,Redes
+1549,Patch Panel,Redes
+1550,Rack Rede,Redes
+1551,Smart TV OLED,Entretenimento
+1552,Soundbar Dolby,Entretenimento
+1553,Console PS5,Entretenimento
+1554,Controle Xbox,Entretenimento
+1555,VR Headset,Entretenimento
+1556,Racing Wheel,Entretenimento
+1557,Arcade Stick,Entretenimento
+1558,Gaming Chair,Entretenimento
+1559,Streaming Deck,Entretenimento
+1560,Ring Light,Entretenimento
+1561,Chromebook,Informática
+1562,Ultrabook,Informática
+1563,Desktop Gaming,Informática
+1564,Mini PC,Informática
+1565,Servidor NAS,Informática
+1566,Workstation,Informática
+1567,Thin Client,Informática
+1568,Single Board,Informática
+1569,Dev Board,Informática
+1570,Arduino Uno,Informática
+1571,Raspberry Pi,Informática
+1572,Sensor Kit,Informática
+1573,Breadboard,Informática
+1574,Jumper Wires,Informática
+1575,Multímetro,Informática
+1576,Ferro Solda,Informática
+1577,Sugador Solda,Informática
+1578,Alicate Desencapar,Informática
+1579,Chaves Precisão,Informática
+1580,Organizador Cabo,Informática
+1581,Fita Isolante,Informática
+1582,Abraçadeira,Informática
+1583,Velcro Adesivo,Informática
+1584,Espuma Acústica,Informática
+1585,Painel Acústico,Informática
+1586,Difusor Áudio,Informática
+1587,Monitor Audio,Informática
+1588,Amplificador,Informática
+1589,Mesa Som,Informática
+1590,Equalizador,Informática
+1591,Compressor,Informática
+1592,Reverb,Informática
+1593,Delay,Informática
+1594,Chorus,Informática
+1595,Distortion,Informática
+1596,Overdrive,Informática
+1597,Wah Pedal,Informática
+1598,Volume Pedal,Informática
+1599,Tuner,Informática
+1600,Metronome,Informática
+

@@ -24,10 +24,12 @@ aula14/
 
 ## 📊 Base de Dados
 
-O arquivo `produtos_corrigido.txt` contém 500 produtos com as seguintes informações:
-- **ID**: Identificador único (1001-1500)
+O arquivo `produtos_corrigido.txt` contém **600 produtos** com as seguintes informações:
+- **ID**: Identificador único (1001-1600)
 - **Nome**: Nome do produto
 - **Categoria**: Categoria do produto
+
+> **🆕 Atualização**: A base de dados foi expandida de 500 para 600 produtos para melhor teste de performance das estruturas de dados. Os novos produtos incluem equipamentos gaming, componentes de PC avançados, dispositivos de networking, ferramentas de desenvolvimento e acessórios especializados.
 
 **Formato**: `ID,Nome,Categoria`
 
@@ -88,7 +90,7 @@ cd e:\java\aula14 && java -cp bin App > resultado.txt 2>&1
 - Inserção em ambas as árvores
 
 ### 2. Teste de Performance
-- **Inserção**: Medição do tempo para inserir todos os 500 produtos
+- **Inserção**: Medição do tempo para inserir todos os **600 produtos**
 - **Busca e Remoção**: Teste com 10 chaves aleatórias entre 1000-2000
 
 ### 3. Relatório de Resultados
@@ -105,15 +107,15 @@ O programa gera um relatório detalhado com:
 ║           SISTEMA DE INDEXAÇÃO - BANCO DE PRODUTOS          ║
 ╚══════════════════════════════════════════════════════════════╝
 
-📦 Total de produtos carregados: 500
+📦 Total de produtos carregados: 600
 
 ┌──────────────────────────────────────────────────────────────┐
 │                    ÁRVORE B+ (Ordem 3)                      │
 └──────────────────────────────────────────────────────────────┘
 
 ⏱️  INSERÇÃO DOS DADOS
-⏰ Tempo de inserção: 2,63 ms
-📊 Produtos inseridos: 500
+⏰ Tempo de inserção: 3,15 ms
+📊 Produtos inseridos: 600
 
 🔍 TESTE DE BUSCA E REMOÇÃO
 🎲 Chaves sorteadas: [1032, 1406, 1170, ...]
@@ -163,7 +165,7 @@ public class Produto {
 ## 🎯 Objetivos do Projeto
 
 1. ✅ Implementar árvores B+ e B* de ordem 3
-2. ✅ Carregar dados de arquivo CSV
+2. ✅ Carregar dados de arquivo CSV (600 produtos)
 3. ✅ Medir tempo de inserção de todos os dados
 4. ✅ Sortear 10 produtos aleatórios (1000-2000)
 5. ✅ Realizar busca e remoção dos produtos
