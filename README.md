@@ -197,6 +197,8 @@ public class Produto {
 
 ## 👨‍💻 Autor
 
+**Fernando Alves de Souza**
+
 Projeto desenvolvido como exercício prático de estruturas de dados avançadas.
 
 ---
