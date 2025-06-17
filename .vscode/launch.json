@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "aula14_a0e5769f"
+        },
+        {
+            "type": "java",
+            "name": "TesteSimples",
+            "request": "launch",
+            "mainClass": "TesteSimples",
+            "projectName": "aula14_a0e5769f"
+        },
+        {
+            "name": "JavaSE-21 LTS",
+            "type": "java",
+            "request": "launch",
+            "mainClass": "${file}",
+            "projectName": "fernando",
+            "vmArgs": [
+                "-Dstdout.encoding=UTF-8",
+                "-Dstderr.encoding=UTF-8"
+            ]
+        },
+        {
+            "name": "JavaSE-24",
+            "type": "java",
+            "request": "launch",
+            "mainClass": "${file}",
+            "projectName": "fernando",
+            "vmArgs": [
+                "-Dstdout.encoding=UTF-8",
+                "-Dstderr.encoding=UTF-8"
+            ]
+        }
+    ]
+}

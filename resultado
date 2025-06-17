@@ -1,0 +1,117 @@
+Picked up JAVA_TOOL_OPTIONS: -Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8
+╔════════════════════════════════════════════════════════════════════╗
+║                   SISTEMA DE INDEXAÇÃO DE DADOS                    ║
+║                         BANCO DE PRODUTOS                          ║
+╚════════════════════════════════════════════════════════════════════╝
+
+📊 CARREGAMENTO DE DADOS
+┌───────────────────────────────────┐
+│ Total de produtos:           500 │
+│ Status:               ✅ Sucesso │
+└───────────────────────────────────┘
+
+🌳 TESTE ÁRVORE B+ (Ordem 3)
+════════════════════════════
+
+📝 1. INSERÇÃO DOS DADOS
+┌──────────────────────────────────────────────────┐
+│ ⏱️  Tempo de inserção:               2,59 ms │
+│ 📦 Produtos inseridos:                500    │
+└──────────────────────────────────────────────────┘
+
+🔍 2. TESTE DE BUSCA E REMOÇÃO
+🎲 Chaves sorteadas: [1198, 1052, 1719, 1256, 1068, 1408, 1571, 1186, 1019, 2000]
+
+✅ Produto encontrado - ID: 1198
+   📋 Nome: Headset | 🏷️  Categoria: Armazenamento
+   🗑️  Produto ID 1198 removido com sucesso
+
+✅ Produto encontrado - ID: 1052
+   📋 Nome: Roteador | 🏷️  Categoria: Entretenimento
+   🗑️  Produto ID 1052 removido com sucesso
+
+❓ Produto com ID 1719 não foi encontrado
+
+✅ Produto encontrado - ID: 1256
+   📋 Nome: Notebook | 🏷️  Categoria: Casa Inteligente
+   🗑️  Produto ID 1256 removido com sucesso
+
+✅ Produto encontrado - ID: 1068
+   📋 Nome: Smart Speaker | 🏷️  Categoria: Componentes
+   🗑️  Produto ID 1068 removido com sucesso
+
+✅ Produto encontrado - ID: 1408
+   📋 Nome: Memória RAM | 🏷️  Categoria: Imagem
+   🗑️  Produto ID 1408 removido com sucesso
+
+❓ Produto com ID 1571 não foi encontrado
+
+✅ Produto encontrado - ID: 1186
+   📋 Nome: Drone | 🏷️  Categoria: Armazenamento
+   🗑️  Produto ID 1186 removido com sucesso
+
+❓ Produto com ID 1019 não foi encontrado
+
+❓ Produto com ID 2000 não foi encontrado
+
+📊 3. RESUMO DOS TESTES
+┌──────────────────────────────────────────────────────────┐
+│ ⏱️  Tempo total de remoção:                     1,46 ms │
+│ ✅ Produtos encontrados e removidos:                6 │
+│ ❓ Produtos não encontrados:                       4 │
+│ ⚡ Tempo médio por operação:                 0,15 ms │
+│ 🎯 Taxa de sucesso:                          60,0% │
+└──────────────────────────────────────────────────────────┘
+
+╟────────────────────────────────────────────────────────────────────╢
+
+🌳 TESTE ÁRVORE B* (Ordem 3)
+════════════════════════════
+
+📝 1. INSERÇÃO DOS DADOS
+┌──────────────────────────────────────────────────┐
+│ ⏱️  Tempo de inserção:               1,04 ms │
+│ 📦 Produtos inseridos:                500    │
+└──────────────────────────────────────────────────┘
+
+🔍 2. TESTE DE BUSCA E REMOÇÃO
+🎲 Chaves sorteadas: [1568, 1479, 1513, 1292, 1174, 1672, 1529, 1816, 1844, 1626]
+
+❓ Produto com ID 1568 não foi encontrado
+
+✅ Produto encontrado - ID: 1479
+   📋 Nome: Tablet Gráfico | 🏷️  Categoria: Componentes
+   🗑️  Produto ID 1479 removido com sucesso
+
+❓ Produto com ID 1513 não foi encontrado
+
+✅ Produto encontrado - ID: 1292
+   📋 Nome: Sirene | 🏷️  Categoria: Acessórios
+   🗑️  Produto ID 1292 removido com sucesso
+
+✅ Produto encontrado - ID: 1174
+   📋 Nome: Volante | 🏷️  Categoria: Casa Inteligente
+   🗑️  Produto ID 1174 removido com sucesso
+
+❓ Produto com ID 1672 não foi encontrado
+
+❓ Produto com ID 1529 não foi encontrado
+
+❓ Produto com ID 1816 não foi encontrado
+
+❓ Produto com ID 1844 não foi encontrado
+
+❓ Produto com ID 1626 não foi encontrado
+
+📊 3. RESUMO DOS TESTES
+┌──────────────────────────────────────────────────────────┐
+│ ⏱️  Tempo total de remoção:                     1,04 ms │
+│ ✅ Produtos encontrados e removidos:                3 │
+│ ❓ Produtos não encontrados:                       7 │
+│ ⚡ Tempo médio por operação:                 0,10 ms │
+│ 🎯 Taxa de sucesso:                          30,0% │
+└──────────────────────────────────────────────────────────┘
+
+╔════════════════════════════════════════════════════════════════════╗
+║                   TESTES CONCLUÍDOS COM SUCESSO                    ║
+╚════════════════════════════════════════════════════════════════════╝
